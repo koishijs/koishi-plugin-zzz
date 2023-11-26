@@ -1,0 +1,6 @@
+{
+    "watch": ["packages","dev"],
+    "ext": "ts,js",
+    "ignore": ["src/**/*.spec.ts"],
+    "exec": "ts-node ./dev/index.ts"
+}

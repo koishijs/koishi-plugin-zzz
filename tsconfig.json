@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig.base",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "koishi-plugin-starrail": ["packages/core/src"],
+      "koishi-plugin-starrail-*": ["packages/*/src"],
+    },
+  },
+}

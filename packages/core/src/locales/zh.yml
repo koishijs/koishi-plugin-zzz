@@ -1,0 +1,13 @@
+commands:
+  zzz:
+    description: "《绝区零》"
+    atlas:
+      description: "《绝区零》图鉴查询"
+      usage: "zzz.atlas <名称>"
+      options:
+        type: 指定查询类型
+        upgrade: 更新图鉴数据
+      messages:
+        upgrade: 更新图鉴数据成功
+        notfound: "未找到图鉴数据"
+        all: "当前图鉴已有："
